@@ -1,3 +1,17 @@
 [user]
 	name = Tobias Waldekranz
 	email = tobias@waldekranz.com
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --graph --abbrev-commit \
+	       	   --pretty=format:'%C(yellow)%h%Creset %s -%C(red)%d%Creset%Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[push]
+	default = current
+[imap]
+	folder = [Gmail]/Drafts
+	host = imaps://imap.gmail.com
+	user = tobias@waldekranz.com
